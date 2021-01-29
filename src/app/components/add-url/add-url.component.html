@@ -1,0 +1,7 @@
+<form [formGroup]="addurlform" (ngSubmit)="addUrl()">
+  <div class="form-group">
+    <label for="txt_url">URL Address</label>
+    <input type="text" class="form-control" id="txt_url" formControlName="txturl" placeholder="Enter URL">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
